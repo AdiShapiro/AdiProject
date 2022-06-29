@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Рвущийся в разработчики</title>
 </head>
 
 <body>
-    <header>
-        <a href="#">Главная</a>
-        <a href="About.html">Обо мне</a>
-        <a href="Education.html">Образование</a>
-        <a href="Work_expirience.html">Опыт работы</a>
-        <a href="Hobby.html">Хобби</a>
-        <a href="Path_to_developer.html">Как я стал разработчиком</a>
+    <header class="header">
+        <a href="#" class="header-link link">Главная</a>
+        <a href="About.html" class="header-link link">Обо мне</a>
+        <a href="Education.html" class="header-link link">Образование</a>
+        <a href="Work_expirience.html" class="header-link link">Опыт работы</a>
+        <a href="Hobby.html" class="header-link link">Хобби</a>
+        <a href="Path_to_developer.html" class="header-link link">Как я стал разработчиком</a>
     </header>
     <main>
-        <h1>Ади Шапиро. <del>Разработчик</del> Студент курса <em>"Frontend-разработчик PRO"</em></h1>
-        <img src="../images/Shapiro.jpeg" alt="my poker face" width="300" height="300">
+        <h1 class="title">Ади Шапиро. <del>Разработчик</del> Студент курса <em>"Frontend-разработчик PRO"</em></h1>
+         <div class="img-wrapper">
+        <img src="../images/Shapiro.jpeg" class="img" alt="my poker face" width="300" height="300">
+         </div>
+        <h2 class="subtitle">Контакты</h2>
+        <p><em>Телефон:</em> <a href="tel:0507146889" class="header-link link">0507146889</a></p>
+        <p><em>E-mail:</em> <a href="mailto:waldymar46@gmail.com" class="header-link link">waldymar46@gmail.com</a></p>
     </main>
-    <footer>
-        <h2>Контакты</h2>
-        <p><em>Телефон:</em> <a href="tel:0507146889">0507146889</a></p>
-        <p><em>E-mail:</em> <a href="mailto:waldymar46@gmail.com">waldymar46@gmail.com</a></p>
-        <hr>
+    <footer class="footer">
         <span>&copy;&nbsp;Рвущийся в разработчики</span>
     </footer>
 </body>
